@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card{
+    width: 660px;
+}
+
+.inputs{
+    display: flex;
+}
+
+.btn{
+  margin:0 5px;
+  width: 83px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item label.checked {
+  text-decoration: line-through;
+}
