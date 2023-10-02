@@ -10,7 +10,7 @@ if (localStorage.getItem("gorevListesi") !== null) {
     gorevListesi = JSON.parse(localStorage.getItem("gorevListesi"));
 }
 
-let editId
+let editId;
 let isEditTask = false;
 
 gorevPenceresi();
