@@ -7,7 +7,7 @@ let gorevListesi = [
 ];
 
 if (localStorage.getItem("gorevListesi") !== null) {
-    gorevListesi = JSON.parse(localStorage.getItem("gorevListesi"));
+    gorevListesi = JSON.parse(localStorage.getItem("gorevListesi"))
 }
 
 let editId;
