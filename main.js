@@ -21,7 +21,7 @@ function gorevPenceresi() {
   ul.innerHTML = "";
 
   if (gorevListesi.length == 0) {
-    ul.innerHTML = "<p class='m-0 p-2' > Tanımlanmış Bir Görev Yok </p>";
+    ul.innerHTML = "<p class='m-0 p-2' > Tanımlanmış Bir Görev Yok </p>"
   } else {
     for (let gorev of gorevListesi) {
 
