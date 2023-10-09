@@ -3,7 +3,7 @@ const taskName = document.querySelector("#taskName");
 
 let gorevListesi = [
 //   { id: 1, gorevAdi: "1. Görev","durum":"tamamlanmis" },
-//   { id: 2, gorevAdi: "2. Görev","durum":"bekliyor" },
+//   { id: 2, gorevAdi: "2. Görev","durum":"bekliyor" }
 ];
 
 if (localStorage.getItem("gorevListesi") !== null) {
