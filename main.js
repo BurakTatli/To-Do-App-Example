@@ -11,7 +11,7 @@ if (localStorage.getItem("gorevListesi") !== null) {
 }
 
 let editId;
-let isEditTask = false;
+let isEditTask = false
 
 gorevPenceresi();
 gorevEkle();
