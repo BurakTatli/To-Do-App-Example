@@ -1,5 +1,5 @@
 let ul = document.querySelector(".list-group");
-const taskName = document.querySelector("#taskName");
+const taskName = document.querySelector("#taskName")
 
 let gorevListesi = [
 //   { id: 1, gorevAdi: "1. Görev","durum":"tamamlanmis" },
